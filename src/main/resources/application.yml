@@ -20,7 +20,7 @@ eureka:
   client:
     registryFetchIntervalSeconds: 15
     serviceUrl:
-      defaultZone: http://localhost:1111/eureka
+      defaultZone: http://118.24.186.220:1111/eureka
 
 management: 
   endpoint: 
@@ -33,8 +33,8 @@ management:
 
 security2:
     user:
-      name: "sa"
-      password: "sa"
+      name: "tenderadmin"
+      password: "cqcyit81390088"
 
 ---
 spring:
